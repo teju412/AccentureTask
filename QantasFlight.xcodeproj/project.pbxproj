@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5466F859278AFB3E00A0F145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466F858278AFB3E00A0F145 /* AppDelegate.swift */; };
+		5466F85B278AFB3E00A0F145 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466F85A278AFB3E00A0F145 /* SceneDelegate.swift */; };
+		5466F85D278AFB3E00A0F145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466F85C278AFB3E00A0F145 /* ViewController.swift */; };
+		5466F860278AFB3E00A0F145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5466F85E278AFB3E00A0F145 /* Main.storyboard */; };
+		5466F863278AFB3E00A0F145 /* QantasFlight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5466F861278AFB3E00A0F145 /* QantasFlight.xcdatamodeld */; };
+		5466F865278AFB3F00A0F145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5466F864278AFB3F00A0F145 /* Assets.xcassets */; };
+		5466F868278AFB3F00A0F145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5466F866278AFB3F00A0F145 /* LaunchScreen.storyboard */; };
+		5466F873278AFB4000A0F145 /* QantasFlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466F872278AFB4000A0F145 /* QantasFlightTests.swift */; };
+		5466F87D278AFB4000A0F145 /* QantasFlightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466F87C278AFB4000A0F145 /* QantasFlightUITests.swift */; };
+		5466F87F278AFB4000A0F145 /* QantasFlightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5466F87E278AFB4000A0F145 /* QantasFlightUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5466F86F278AFB4000A0F145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5466F84D278AFB3E00A0F145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5466F854278AFB3E00A0F145;
+			remoteInfo = QantasFlight;
+		};
+		5466F879278AFB4000A0F145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5466F84D278AFB3E00A0F145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5466F854278AFB3E00A0F145;
+			remoteInfo = QantasFlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5466F855278AFB3E00A0F145 /* QantasFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QantasFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5466F858278AFB3E00A0F145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5466F85A278AFB3E00A0F145 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5466F85C278AFB3E00A0F145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5466F85F278AFB3E00A0F145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5466F862278AFB3E00A0F145 /* QantasFlight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QantasFlight.xcdatamodel; sourceTree = "<group>"; };
+		5466F864278AFB3F00A0F145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5466F867278AFB3F00A0F145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5466F869278AFB3F00A0F145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5466F86E278AFB4000A0F145 /* QantasFlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QantasFlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5466F872278AFB4000A0F145 /* QantasFlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasFlightTests.swift; sourceTree = "<group>"; };
+		5466F878278AFB4000A0F145 /* QantasFlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QantasFlightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5466F87C278AFB4000A0F145 /* QantasFlightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasFlightUITests.swift; sourceTree = "<group>"; };
+		5466F87E278AFB4000A0F145 /* QantasFlightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QantasFlightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5466F852278AFB3E00A0F145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5466F86B278AFB4000A0F145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5466F875278AFB4000A0F145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5466F84C278AFB3E00A0F145 = {
+			isa = PBXGroup;
+			children = (
+				5466F857278AFB3E00A0F145 /* QantasFlight */,
+				5466F871278AFB4000A0F145 /* QantasFlightTests */,
+				5466F87B278AFB4000A0F145 /* QantasFlightUITests */,
+				5466F856278AFB3E00A0F145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5466F856278AFB3E00A0F145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5466F855278AFB3E00A0F145 /* QantasFlight.app */,
+				5466F86E278AFB4000A0F145 /* QantasFlightTests.xctest */,
+				5466F878278AFB4000A0F145 /* QantasFlightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5466F857278AFB3E00A0F145 /* QantasFlight */ = {
+			isa = PBXGroup;
+			children = (
+				5466F858278AFB3E00A0F145 /* AppDelegate.swift */,
+				5466F85A278AFB3E00A0F145 /* SceneDelegate.swift */,
+				5466F85C278AFB3E00A0F145 /* ViewController.swift */,
+				5466F85E278AFB3E00A0F145 /* Main.storyboard */,
+				5466F864278AFB3F00A0F145 /* Assets.xcassets */,
+				5466F866278AFB3F00A0F145 /* LaunchScreen.storyboard */,
+				5466F869278AFB3F00A0F145 /* Info.plist */,
+				5466F861278AFB3E00A0F145 /* QantasFlight.xcdatamodeld */,
+			);
+			path = QantasFlight;
+			sourceTree = "<group>";
+		};
+		5466F871278AFB4000A0F145 /* QantasFlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				5466F872278AFB4000A0F145 /* QantasFlightTests.swift */,
+			);
+			path = QantasFlightTests;
+			sourceTree = "<group>";
+		};
+		5466F87B278AFB4000A0F145 /* QantasFlightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5466F87C278AFB4000A0F145 /* QantasFlightUITests.swift */,
+				5466F87E278AFB4000A0F145 /* QantasFlightUITestsLaunchTests.swift */,
+			);
+			path = QantasFlightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5466F854278AFB3E00A0F145 /* QantasFlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5466F882278AFB4000A0F145 /* Build configuration list for PBXNativeTarget "QantasFlight" */;
+			buildPhases = (
+				5466F851278AFB3E00A0F145 /* Sources */,
+				5466F852278AFB3E00A0F145 /* Frameworks */,
+				5466F853278AFB3E00A0F145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QantasFlight;
+			productName = QantasFlight;
+			productReference = 5466F855278AFB3E00A0F145 /* QantasFlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5466F86D278AFB4000A0F145 /* QantasFlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5466F885278AFB4000A0F145 /* Build configuration list for PBXNativeTarget "QantasFlightTests" */;
+			buildPhases = (
+				5466F86A278AFB4000A0F145 /* Sources */,
+				5466F86B278AFB4000A0F145 /* Frameworks */,
+				5466F86C278AFB4000A0F145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5466F870278AFB4000A0F145 /* PBXTargetDependency */,
+			);
+			name = QantasFlightTests;
+			productName = QantasFlightTests;
+			productReference = 5466F86E278AFB4000A0F145 /* QantasFlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5466F877278AFB4000A0F145 /* QantasFlightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5466F888278AFB4000A0F145 /* Build configuration list for PBXNativeTarget "QantasFlightUITests" */;
+			buildPhases = (
+				5466F874278AFB4000A0F145 /* Sources */,
+				5466F875278AFB4000A0F145 /* Frameworks */,
+				5466F876278AFB4000A0F145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5466F87A278AFB4000A0F145 /* PBXTargetDependency */,
+			);
+			name = QantasFlightUITests;
+			productName = QantasFlightUITests;
+			productReference = 5466F878278AFB4000A0F145 /* QantasFlightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5466F84D278AFB3E00A0F145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5466F854278AFB3E00A0F145 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5466F86D278AFB4000A0F145 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5466F854278AFB3E00A0F145;
+					};
+					5466F877278AFB4000A0F145 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5466F854278AFB3E00A0F145;
+					};
+				};
+			};
+			buildConfigurationList = 5466F850278AFB3E00A0F145 /* Build configuration list for PBXProject "QantasFlight" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5466F84C278AFB3E00A0F145;
+			productRefGroup = 5466F856278AFB3E00A0F145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5466F854278AFB3E00A0F145 /* QantasFlight */,
+				5466F86D278AFB4000A0F145 /* QantasFlightTests */,
+				5466F877278AFB4000A0F145 /* QantasFlightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5466F853278AFB3E00A0F145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5466F868278AFB3F00A0F145 /* LaunchScreen.storyboard in Resources */,
+				5466F865278AFB3F00A0F145 /* Assets.xcassets in Resources */,
+				5466F860278AFB3E00A0F145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5466F86C278AFB4000A0F145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5466F876278AFB4000A0F145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5466F851278AFB3E00A0F145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5466F85D278AFB3E00A0F145 /* ViewController.swift in Sources */,
+				5466F859278AFB3E00A0F145 /* AppDelegate.swift in Sources */,
+				5466F85B278AFB3E00A0F145 /* SceneDelegate.swift in Sources */,
+				5466F863278AFB3E00A0F145 /* QantasFlight.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5466F86A278AFB4000A0F145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5466F873278AFB4000A0F145 /* QantasFlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5466F874278AFB4000A0F145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5466F87F278AFB4000A0F145 /* QantasFlightUITestsLaunchTests.swift in Sources */,
+				5466F87D278AFB4000A0F145 /* QantasFlightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5466F870278AFB4000A0F145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5466F854278AFB3E00A0F145 /* QantasFlight */;
+			targetProxy = 5466F86F278AFB4000A0F145 /* PBXContainerItemProxy */;
+		};
+		5466F87A278AFB4000A0F145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5466F854278AFB3E00A0F145 /* QantasFlight */;
+			targetProxy = 5466F879278AFB4000A0F145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5466F85E278AFB3E00A0F145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5466F85F278AFB3E00A0F145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5466F866278AFB3F00A0F145 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5466F867278AFB3F00A0F145 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5466F880278AFB4000A0F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5466F881278AFB4000A0F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5466F883278AFB4000A0F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A32VHM5D6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QantasFlight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mittu.QantasFlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5466F884278AFB4000A0F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A32VHM5D6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QantasFlight/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mittu.QantasFlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5466F886278AFB4000A0F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A32VHM5D6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mittu.QantasFlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QantasFlight.app/QantasFlight";
+			};
+			name = Debug;
+		};
+		5466F887278AFB4000A0F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A32VHM5D6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mittu.QantasFlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QantasFlight.app/QantasFlight";
+			};
+			name = Release;
+		};
+		5466F889278AFB4000A0F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A32VHM5D6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mittu.QantasFlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QantasFlight;
+			};
+			name = Debug;
+		};
+		5466F88A278AFB4000A0F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A32VHM5D6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mittu.QantasFlightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QantasFlight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5466F850278AFB3E00A0F145 /* Build configuration list for PBXProject "QantasFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5466F880278AFB4000A0F145 /* Debug */,
+				5466F881278AFB4000A0F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5466F882278AFB4000A0F145 /* Build configuration list for PBXNativeTarget "QantasFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5466F883278AFB4000A0F145 /* Debug */,
+				5466F884278AFB4000A0F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5466F885278AFB4000A0F145 /* Build configuration list for PBXNativeTarget "QantasFlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5466F886278AFB4000A0F145 /* Debug */,
+				5466F887278AFB4000A0F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5466F888278AFB4000A0F145 /* Build configuration list for PBXNativeTarget "QantasFlightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5466F889278AFB4000A0F145 /* Debug */,
+				5466F88A278AFB4000A0F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5466F861278AFB3E00A0F145 /* QantasFlight.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5466F862278AFB3E00A0F145 /* QantasFlight.xcdatamodel */,
+			);
+			currentVersion = 5466F862278AFB3E00A0F145 /* QantasFlight.xcdatamodel */;
+			path = QantasFlight.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5466F84D278AFB3E00A0F145 /* Project object */;
+}
